@@ -1,24 +1,43 @@
-# Compiled class file
-*.class
+# Java build
+target/
+build/
 
-# Log file
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+HELP.md
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+.settings/
+.classpath
+.project
+.factorypath
+
+# Logs, temp
 *.log
+*.tmp
+*.temp
 
-# BlueJ files
-*.ctxt
+# OS files
+.DS_Store
+Thumbs.db
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Backup files
+*.bak
+*.old
+*.orig
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
+# Archives / dumps
+*.gz
 *.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Spring Boot repackaged jars
+*.war
+*.jar
+
+# Git related
+.gitattributes
